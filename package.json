@@ -2,8 +2,10 @@
   "name": "arcalink-sync",
   "version": "0.1.41",
   "private": true,
+  "author": "ИП Санкин Денис Николаевич",
+  "license": "GPL-3.0-only",
   "scripts": {
-    "build": "esbuild src/main.js --bundle --platform=browser --format=cjs --external:obsidian --outfile=main.js"
+    "build": "esbuild src/main.js --bundle --platform=browser --format=cjs --external:obsidian --banner:js='/*! Copyright (C) 2026 ИП Санкин Денис Николаевич | SPDX-License-Identifier: GPL-3.0-only */' --outfile=main.js"
   },
   "dependencies": {
     "yjs": "^13.6.26"
