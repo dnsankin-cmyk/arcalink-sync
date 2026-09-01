@@ -1,3 +1,6 @@
+// Copyright (C) 2026 ИП Санкин Денис Николаевич
+// SPDX-License-Identifier: GPL-3.0-only
+
 function sameSyncIdentity(left, right) {
   return (
     left.entryType === right.entryType &&
