@@ -1,0 +1,14 @@
+{
+  "name": "arcalink-sync",
+  "version": "0.1.41",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --platform=browser --format=cjs --external:obsidian --outfile=main.js"
+  },
+  "dependencies": {
+    "yjs": "^13.6.26"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
