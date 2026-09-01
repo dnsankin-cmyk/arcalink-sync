@@ -22,7 +22,7 @@ For later source updates, repeat the split with a fresh temporary branch, or use
 
 ## Before the first Community directory submission
 
-- Add an approved `LICENSE` file.
+- Verify that `LICENSE`, `COPYRIGHT.md`, the `GPL-3.0-only` package metadata, and `THIRD_PARTY_NOTICES.md` are included in the public repository and release source.
 - Remove the plugin's built-in update downloader and installer. Community plugins must be updated through Obsidian and GitHub Releases.
 - Confirm the public privacy-policy and terms URLs for the Arcalink service.
 - Decide whether the directory listing should be marked **Paid** or **Optional payment**.
