@@ -1,3 +1,4 @@
+/*! Copyright (C) 2026 ИП Санкин Денис Николаевич | SPDX-License-Identifier: GPL-3.0-only */
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
