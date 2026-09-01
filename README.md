@@ -40,4 +40,8 @@ For product information and support, visit [arcalink.ru](https://arcalink.ru).
 
 ## License
 
-The license will be added before the first public Community directory submission.
+Copyright (C) 2026 ИП Санкин Денис Николаевич.
+
+Arcalink Sync is licensed under the [GNU General Public License version 3 only](./LICENSE) (`GPL-3.0-only`). Anyone distributing a modified version must provide the corresponding source under the same license.
+
+This license applies to the plugin code in this repository. It does not grant rights to the Arcalink trademarks, hosted service, or separately maintained server software. Third-party components and their notices are listed in [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md).
