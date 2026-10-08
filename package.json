@@ -1,16 +1,14 @@
 {
   "name": "arcalink-sync",
-  "version": "0.1.41",
+  "version": "1.0.0",
   "private": true,
-  "author": "ИП Санкин Денис Николаевич",
+  "description": "Sync notes between devices through ArcaLink, with shared folders and Telegram.",
   "license": "GPL-3.0-only",
   "scripts": {
-    "build": "esbuild src/main.js --bundle --platform=browser --format=cjs --external:obsidian --banner:js='/*! Copyright (C) 2026 ИП Санкин Денис Николаевич | SPDX-License-Identifier: GPL-3.0-only */' --outfile=main.js"
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs"
   },
-  "dependencies": {
-    "yjs": "^13.6.26"
-  },
-  "devDependencies": {
-    "esbuild": "^0.25.0"
+  "engines": {
+    "node": ">=22"
   }
 }
