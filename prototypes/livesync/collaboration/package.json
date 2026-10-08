@@ -1,0 +1,1 @@
+{"name":"arcalink-pilot-collaboration","private":true,"version":"1.0.0","type":"module","engines":{"node":">=22"},"dependencies":{"@hocuspocus/server":"4.7.0","@hocuspocus/provider":"4.7.0","yjs":"13.6.33","y-codemirror.next":"0.3.6","y-indexeddb":"9.0.12"}}
